@@ -32,7 +32,8 @@ mlflow.set_experiment(experiment_name)
 # # Import Training Data
 
 # Read the wine-quality csv file (make sure you're running this from the root of MLflow!)
-wine_path = './datasets/wine-quality.csv'
+#wine_path = './datasets/wine-quality.csv'
+wine_path = 'winequality-white.csv'
 data = pd.read_csv(wine_path)
 
 # Split the data into training and test sets. (0.75, 0.25) split.
